@@ -8,7 +8,7 @@
 [Clang 5](https://releases.llvm.org/5.0.0/tools/clang/docs/ClangFormatStyleOptions.html)\
 [Clang 4](https://releases.llvm.org/4.0.0/tools/clang/docs/ClangFormatStyleOptions.html)
 
-## ClangFormat new style-options added
+## clang-format new style-options added
 | Clang 9 | Clang 8 | Clang 7 | Clang 6 | Clang 5 |
 |:---     |:---     |:---     |:---     |:---     |
 | AlignConsecutiveMacros (bool)      | JavaImportGroups (std::vector<std::string>) | ObjCBinPackProtocolList (BinPackStyle)     | IncludeBlocks (IncludeBlocksStyle) | BreakBeforeInheritanceComma (bool) |
@@ -19,7 +19,7 @@
 | NamespaceMacros (std::vector<std::string>) |                                     | SpaceBeforeRangeBasedForLoopColon (bool)   |                                       | SortUsingDeclarations (bool) |
 | SpaceAfterLogicalNot (bool) |                                                    |                                            |                                       |                              |
  
-## ClangFormat style-options interface changes
+## clang-format style-options interface changes
 | Clang 9 | Clang 8 | Clang 7 | Clang 6 | Clang 5 | Clang 4 |
 |:---     |:---     |:---     |:---     |:---     |:---     |
 | AllowShortIfStatementsOnASingleLine (ShortIfStyle) | AllowShortIfStatementsOnASingleLine (bool)      |       |       |         |         |
@@ -28,7 +28,7 @@
 |         |         |         |         | AlignEscapedNewlines (EscapedNewlineAlignmentStyle) |  AlignEscapedNewlinesLeft (bool) |
 |         |         |         |         | BreakConstructorInitializers (BreakConstructorInitializersStyle) |  BreakConstructorInitializersBeforeComma (bool) |
 
-## ClangFormat complete style-options by version
+## clang-format complete style-options by version
 
 | Clang 9 | Clang 8 | Clang 7 | Clang 6 | Clang 5 | Clang 4 |
 |:---     |:---     |:---     |:---     |:---     |:---     |
